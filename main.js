@@ -1,18 +1,16 @@
-const form=document.getElementById('form_atividade');
-const imgAprovado='<img src="./images/aprovado.png" alt="emoji celebrando" />';
-const imgReprovado='<img src="./images/reprovado.png" alt="emoji decepcionado" />';
+const form=document.getElementById('form_contatos');
 
 let linhas='';
 
 form.addEventListener('submit', function(e){
     e.preventDefault();
-    const inputNomeAtividade=document.getElementById('nome_atividade');
-    const inputNotaAtividade=document.getElementById('nota_atividade');
+
+    const inputNomeContato=document.getElementById('nome_contato');
+    const inputNumero=document.getElementById('numero');
 
     let linha='<tr>';
-    linha+= `<td>${inputNomeAtividade.value}</td>`;
-    linha+= `<td>${inputNotaAtividade.value}</td>`;
-    linha+= `<td>${inputNotaAtividade.value >=7 ? 'imgAprovado': 'imgReprovado'}</td>`;
+    linha+= `<td>${inputNomeContato.value}</td>`;
+    linha+= `<td>${inputNumero.value}</td>`;
     linha+= '</tr>';
 
     linhas += linha;

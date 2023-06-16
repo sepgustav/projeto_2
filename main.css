@@ -6,7 +6,7 @@
 }
 
 body{
-    background-color: beige;
+    background-color: rgb(149, 221, 239);
     padding-top: 100px;
 }
 
@@ -43,7 +43,7 @@ form {
 form input{
     font-size: 24px;
     background-color: white;
-    border: none;
+    border: gray;
     border-bottom: 2px solid black;
     padding: 8px;
 }
@@ -76,22 +76,5 @@ table td{
     border-bottom: 1px solid rgba(0,0,0, 0.1);
 }
 
-table td img{
-    height: 30px;
-}
 
-.resultado{
-    padding: 9px;
-    font-weight: bold;  
-    color: white;
-    background-color: black;
-    border-radius: 3px;
-}
 
-.aprovado{
-    background-color: green;
-}
-
-.reprovado{
-    background-color: red;
-}
