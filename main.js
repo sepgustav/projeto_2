@@ -15,10 +15,10 @@ form.addEventListener('submit', function(e){
 
     linhas += linha;
 
-    const corpoTabela = documento.querySelector('tbody');
-    corpoTabela.innerHTML=linha;
+    const corpoTabela = document.querySelector('tbody');
+    corpoTabela.innerHTML=linhas;
 
-    inputNomeAtividade.value ='';
-    inputNotaAtividade.value ='';
+    inputNomeContato.value ='';
+    inputNumero.value ='';
        
 });
