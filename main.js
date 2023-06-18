@@ -21,4 +21,4 @@ form.addEventListener('submit', function(e){
     inputNomeContato.value ='';
     inputNumero.value ='';
        
-});
+});//fim
